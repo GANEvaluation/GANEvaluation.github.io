@@ -62,9 +62,9 @@ function sampleImages(){
 
   // Display corresponding images
 //   base_url = "https://raw.githubusercontent.com/drapingevaluation/drapingevaluation.github.io/assets2.2/"
-  base_url = "https://github.com/doub7e/doub7e.github.io/blob/main/images/"
-  img0.src = base_url + draping_modes[0] + "/" + "2018-06-26 (1).png"
-  img1.src = base_url + draping_modes[0] + "/" + "2018-06-26 (1).png"
+  base_url = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/images/"
+  img0.src = base_url + draping_modes[0] + "/" + "2018-06-26%20(1).png"
+  img1.src = base_url + draping_modes[0] + "/" + "2018-06-26%20(1).png"
 //   img0.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
 //   img1.src = base_url + draping_modes[1] + "/" + rendering_id + ".png"
 
