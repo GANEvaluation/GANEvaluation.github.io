@@ -46,20 +46,15 @@ function shuffleArray(arr){
 }
 
 function sampleImages(){
-  /* Samples and displays the same garment, draped by 2 concurrent methods: a,c or b,d. */
-
-  comparison = getRandomInt(3)
+  comparison = getRandomInt(2)
 
   if(comparison == 0) {
     num_renderings = 1116
     // Method order is randomized
-    draping_modes = shuffleArray(["a", "c"])
+    draping_modes = shuffleArray(["a", "b"])
   } else if(comparison == 1) {
     num_renderings = 1116
-    draping_modes = shuffleArray(["e", "f"])
-  } else {
-    num_renderings = 564
-    draping_modes = shuffleArray(["b", "d"])
+    draping_modes = shuffleArray(["b", "a"])
   }
 
   // Body/garment combination is randomized
