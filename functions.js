@@ -128,7 +128,7 @@ function sendData(data) {
   });
 
   // Set up our request
-  XHR.open('POST', 'https://script.google.com/macros/s/AKfycbzXof_89vtE22akqC6dV02CVDrUP3LX6xGN1sdHHIATjE0ZZru8L8lRCAMHN-e9O1Q/exec');
+  XHR.open('POST', 'https://script.google.com/macros/s/AKfycby09EEm0olcT5wui0kMJLJbqR1JKr4azhxTF23Z0R_GsNyCOJpBEYIbF5sBosR2-jhx/exec');
 
   // Send our FormData object; HTTP headers are set automatically
   XHR.send(FD);
