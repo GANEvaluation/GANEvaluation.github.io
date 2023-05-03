@@ -13,13 +13,16 @@
 <body onload="sampleImages(); const userId = userIdSetup();"><main>
 <h1>Comparing image synthesis methods</h1>
 
-In this study, we are comparing different methods for generating iamges. You are presented pairs of images, where we drape the same garment using 2 different methods. 
-<br><b>Please click on the one that you find the most realistic</b>, i.e. with the least visual defects, or the most pleasing and natural to your eyes. If you cannot make up your mind, pick the last answer.
-<br>A new draping simulation is shown after each click, <b>as an endless stream. You can stop at any time.</b>
+In this study, we are comparing different methods for generating iamges. First, you are presented a real image from a dataset, followed by two generated images created by 2 different methods. 
+<br><b>Please click on the one that you find more visually similar to the real image. If you cannot make up your mind, pick the last answer.
+<br>A new group of evaluation is shown after each click, <b>as an endless stream. You can stop at any time.</b>
 <br>
 <i>Thanks a lot for your help!</i>
 </p>
 
+  
+<img id="imgreal"/>
+  
 <hr>
 <img id="img0" onclick="clickImage('0')" class="imgHover split left"/>
 <img id="img1" onclick="clickImage('1')" class="imgHover split right" />
