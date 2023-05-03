@@ -69,7 +69,7 @@ function sampleImages(){
   img1.src = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/00235.png"
 //   img0.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
 //   img1.src = base_url + draping_modes[1] + "/" + rendering_id + ".png"
-  imgreal.src = "https://raw.githubusercontent.com/GANEvaluation/GANEvaluation.github.io/main/images/EvalA-a/00115.png"
+  imgreal.src = "https://raw.githubusercontent.com/GANEvaluation/GANEvaluation.github.io/main/images/EvalA-a/00115.png" 
 
 }
 
