@@ -46,30 +46,24 @@ function shuffleArray(arr){
 }
 
 function sampleImages(){
-  comparison = getRandomInt(2)
+  comparison = getRandomInt(1)
 
   if(comparison == 0) {
-    num_renderings = 1116
+    num_renderings = 1000
     // Method order is randomized
-    draping_modes = shuffleArray(["a", "b"])
+    draping_modes = shuffleArray(["pret", "latc"])
   } else if(comparison == 1) {
     num_renderings = 1116
-    draping_modes = shuffleArray(["b", "a"])
+    draping_modes = shuffleArray(["c", "d"])
   }
 
-  // Body/garment combination is randomized
   rendering_id = getRandomInt(num_renderings)
 
   // Display corresponding images
-//   base_url = "https://raw.githubusercontent.com/drapingevaluation/drapingevaluation.github.io/assets2.2/"
-  base_url = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/images/"
-//   img0.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
-//   img1.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
-  img0.src = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/00267.png"
-  img1.src = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/00235.png"
-//   img0.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
-//   img1.src = base_url + draping_modes[1] + "/" + rendering_id + ".png"
-  imgreal.src = "https://raw.githubusercontent.com/GANEvaluation/GANEvaluation.github.io/main/images/EvalA-a/00115.png" 
+  base_url = "https://raw.githubusercontent.com/GANEvaluation/GANEvaluation.github.io/main/images/"
+  img0.src = base_url + draping_modes[0] + "/" + rendering_id + ".png"
+  img1.src = base_url + draping_modes[1] + "/" + rendering_id + ".png"
+  imgreal.src = base_url + "real/" + rendering_id + ".png"
 
 }
 
